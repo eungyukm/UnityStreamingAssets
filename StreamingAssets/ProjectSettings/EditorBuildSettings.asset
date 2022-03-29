@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/streaming-scene1.unity
+    path: Assets/Scenes/streaming-scene1.unity
     guid: e8434d3935963b44cabbd5cafdb94834
   - enabled: 1
-    path: Assets/streaming-scene2.unity
+    path: Assets/Scenes/streaming-scene2.unity
     guid: 4b70ea4cb35c1454190efe25de6174d6
   m_configObjects: {}
