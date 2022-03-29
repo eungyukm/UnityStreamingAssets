@@ -60,6 +60,7 @@ public class SceneStreamingTrigger : MonoBehaviour
         if(targetScene.isLoaded)
         {
             var currentScene = SceneManager.GetSceneByName(triggerOwnScene);
+
             SceneManager.MoveGameObjectToScene(GameObject.FindGameObjectWithTag("Player"), currentScene);
 
             var op = SceneManager.UnloadSceneAsync(streamTargetScene);
